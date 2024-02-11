@@ -1,0 +1,143 @@
+.flexcontainer{
+display: flex;
+flex-direction: row;
+background-color: orange;
+color:aliceblue;
+
+
+}
+
+#opt1{margin-left: 20cm;}
+
+#opt2{margin-left: 5mm;
+
+}
+
+a:link{
+color: aliceblue;
+
+
+}
+
+a:visited{
+    color: aliceblue;
+}
+
+#opt3{padding-left: 5mm; 
+    text-decoration: none;
+    text-decoration-color: aliceblue;
+}
+#opt4{margin-left: 5mm;}
+
+
+
+.shoppingcart{
+    padding-top: 6mm;
+    width: 5mm;
+    height: 5mm;
+    mix-blend-mode: darken;
+
+}
+
+/* 
+.slide1{width: 400px;opacity: 0%;}
+.slide2{width: 400px; opacity: 0%;}
+.slide3{width: 400px; opacity: 0%;}
+
+
+.Slideshow{
+    
+    display: flex;
+    flex-direction: row;
+    /* float: inline-start; */
+    position: relative;
+     /* margin: 20px; */
+    /* animation-name: slideshow;
+    animation-duration: 30s;   */
+    animation: slideshow 15s infinite ;
+    
+/* } */
+
+/* @keyframes slideshow {
+
+    0% {
+        .slide1{opacity: 50;}
+    }
+    33%{
+        .slide1{opacity: 100%;}
+
+    }
+    50%{
+        .slide1{opacity: 50%;}
+        .slide2{opacity: 35%;}
+    }
+    55%{
+        .slide1{opacity: 0;}
+        .slide2{opacity: 80%;}
+    }
+    60%{.slide2{opacity: 100%;}}
+    66%{.slide2{opacity: 50%;
+    .slide3{opacity: 40%;}}}
+    70%{.slide2{opacity: 0;}
+    .slide3{opacity: 50%;}
+}
+100%{.slide3{opacity: 100%;}} */
+/* } */
+.slide1 { width: 400px; display: none; }
+.slide2 { width: 400px; display: none; }
+.slide3 { width: 400px; display: none; }
+
+.Slideshow {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    animation: carsoul 10s infinite;
+}
+
+
+@keyframes carsoul{
+0%{.slide1 {display: block;}}
+33%{.slide1{display: none;}
+    .slide2{display: block;}}
+    66%{.slide2{display: none;}.slide3{display: block;}}
+    100%{.slide3{display: none;}}
+
+
+}
+
+
+
+
+
+@keyframes slideshow {
+    0% {
+   background-color: aqua;
+        .slide1 { opacity: 100%; }
+    }
+    33% {
+        background-color: black;
+        .slide1 { opacity: 0%; }
+    }
+    50% {
+        .slide1 { opacity: 0%; }
+        .slide2 { opacity: 35%; }
+    }
+    55% {
+        .slide1 { opacity: 0%; }
+        .slide2 { opacity: 80%; }
+    }
+    60% {
+        .slide2 { opacity: 100%; }
+    }
+    66% {
+        .slide2 { opacity: 0%; }
+        .slide3 { opacity: 40%; }
+    }
+    70% {
+        .slide2 { opacity: 0%; }
+        .slide3 { opacity: 50%; }
+    }
+    100% {
+        .slide3 { opacity: 100%; }
+    }
+}
