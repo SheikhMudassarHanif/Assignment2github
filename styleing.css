@@ -1,15 +1,23 @@
 
-body, ul {
-    margin: 0;
-    padding: 0;
+/* 
+.flexcontainer{position: fixed;
+z-index: 1000;
+} */
+
+.shoppingcart{
+    position: fixed;
+    z-index: 1000;
 }
 
+
 nav {
-    background-color: #ca701b;
+    position: fixed;
+    background-color: #ce7929;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    z-index: 1000;
 }
 
 ul {
@@ -161,6 +169,15 @@ form {
     border-radius: 7px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 #msg {
     text-align: left;
